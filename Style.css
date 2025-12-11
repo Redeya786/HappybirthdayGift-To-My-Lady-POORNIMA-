@@ -1,0 +1,14 @@
+/* ... (Same as previous sweet & faadu style.css for Floating hearts, Neon colors, Teddy Bears) ... */
+/* NOTE: Use the complete style.css from the previous "Sweet & Faadu Level 2.0" response */
+
+/* Footer ke liye ek extra touch */
+.footer-heart {
+    font-size: 1.5em;
+    animation: pulse 1s infinite alternate;
+    display: inline-block;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
